@@ -24,10 +24,10 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common.mk)
 
-CUSTOM_BUILD_TYPE := OFFICIAL
+CUSTOM_BUILD_TYPE := UNOFFICIAL
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
-KBUILD_BUILD_USER := verevka
+KBUILD_BUILD_USER := varGeneric
 KBUILD_BUILD_HOST := sagit
 
 PRODUCT_NAME := aosp_sagit
