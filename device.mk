@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
     init.tfa.sh \
     tinyplay
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    WallpapersBReel2018
+
 # Miui Camera
 $(call inherit-product, vendor/XiaomiCustom/MiuiCamera/MiuiCamera.mk)
 
